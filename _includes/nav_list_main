@@ -34,7 +34,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Python" %}
-                        <li><a href="/categories/unity-lesson-1" class="">PYTHON ({{category[1].size}})</a></li>
+                        <li><a href="/categories/py" class="">PYTHON ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -44,7 +44,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DB" %}
-                        <li><a href="/categories/db" class="">PostgreSQL ({{category[1].size}})</a></li>
+                        <li><a href="/categories/postgresql" class="">PostgreSQL ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
