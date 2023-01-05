@@ -1,5 +1,5 @@
 ---
-title: "MySQL"
+title: "PostgreSQL"
 layout: archive
 permalink: categories/db
 author_profile: true
