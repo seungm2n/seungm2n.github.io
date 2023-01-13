@@ -28,12 +28,20 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-     
+
+        <span class="nav__sub-title">CORDING TEST</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "BKJN" %}
+                        <li><a href="/categories/bkjn" class="">백준 ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
      
         <span class="nav__sub-title">PYTHON</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Python" %}
+                    {% if category[0] == "PYTHON" %}
                         <li><a href="/categories/py" class="">PYTHON ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
