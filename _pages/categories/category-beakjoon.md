@@ -1,5 +1,5 @@
 ---
-title: "PostgreSQL"
+title: "백준"
 layout: archive
 permalink: categories/bkjn
 author_profile: true
