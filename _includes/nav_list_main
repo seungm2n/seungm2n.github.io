@@ -29,7 +29,7 @@
                 {% endfor %}
             </ul>
 
-        <span class="nav__sub-title">CORDING TEST</span>
+        <span class="nav__sub-title">CODING TEST</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "BKJN" %}
