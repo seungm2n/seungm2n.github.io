@@ -52,7 +52,7 @@
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DBMS" %}
-                        <li><a href="/categories/postgresql" class="">DBMS ({{category[1].size}})</a></li>
+                        <li><a href="/categories/dbms" class="">DBMS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
