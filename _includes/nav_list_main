@@ -48,11 +48,11 @@
             </ul>
 
 
-        <span class="nav__sub-title">DB</span>
+        <span class="nav__sub-title">DBMS</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "DB" %}
-                        <li><a href="/categories/postgresql" class="">PostgreSQL ({{category[1].size}})</a></li>
+                    {% if category[0] == "DBMS" %}
+                        <li><a href="/categories/postgresql" class="">DBMS ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
