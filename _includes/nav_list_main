@@ -48,7 +48,7 @@
             </ul>
 
 
-        <span class="nav__sub-title">DBMS</span>
+        <span class="nav__sub-title">DB</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "DBMS" %}
