@@ -1,5 +1,5 @@
 ---
-title: "PROGRAMMERS SQL"
+title: "프로그래머스 SQL"
 layout: archive
 permalink: categories/programmers-sql
 author_profile: true
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.PROGRAMMERS %}
+{% assign posts = site.categories.PROGRAMMERS-SQL %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
