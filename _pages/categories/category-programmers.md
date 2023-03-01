@@ -1,7 +1,7 @@
 ---
-title: "PROGRAMMERS"
+title: "PROGRAMMERS SQL"
 layout: archive
-permalink: categories/programmers
+permalink: categories/programmers-sql
 author_profile: true
 sidebar_main: true
 ---
