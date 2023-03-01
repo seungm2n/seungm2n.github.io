@@ -30,6 +30,7 @@
             </ul>
 
         <span class="nav__sub-title">CODING TEST</span>
+            <!-- 백준 -->
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "BKJN" %}
@@ -37,7 +38,8 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-            
+            <!-- 백준 끝 -->
+            <!-- 프로그래머스 -->
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "PROGRAMMERS SQL" %}
@@ -45,7 +47,7 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-     
+            <!-- 프로그래머스 끝 -->
         <span class="nav__sub-title">PYTHON</span>
             <ul>
                 {% for category in site.categories %}
