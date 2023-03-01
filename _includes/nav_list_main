@@ -37,6 +37,14 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "PROGRAMMERS SQL" %}
+                        <li><a href="/categories/programmers-sql" class="">PROGRAMMERS SQL ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
      
         <span class="nav__sub-title">PYTHON</span>
             <ul>
