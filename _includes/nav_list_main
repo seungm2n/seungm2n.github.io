@@ -51,8 +51,8 @@
         <span class="nav__sub-title">PYTHON</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "py-dl" %}
-                        <li><a href="/categories/py-dl" class="">Deep Learning ({{category[1].size}})</a></li>
+                    {% if category[0] == "py-ml" %}
+                        <li><a href="/categories/py-ml" class="">Machine Learning ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
